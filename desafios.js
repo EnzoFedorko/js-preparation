@@ -6,7 +6,6 @@ function pares (){
     pares.push(i)
     i+=2
     }
-    //console.log(pares)
     return pares
 }
 
@@ -21,5 +20,6 @@ function suma () {
     i++
     }
     console.log(total);
+    document.write(total);
 }
 suma();
